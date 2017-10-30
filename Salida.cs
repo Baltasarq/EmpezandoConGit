@@ -4,7 +4,7 @@
     {
         public static void Escribe(string msg)
         {
-            System.Console.WriteLine( msg );
+            System.Console.Write( msg + '\n' );
         }
     }
 }
