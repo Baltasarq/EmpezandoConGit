@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace EmpezandoConGit
+﻿namespace EmpezandoConGit
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hola, mundo!");
+            Salida.Escribe("Hola, mundo!");
         }
     }
 }
