@@ -3,6 +3,8 @@
 *.exe
 *.dll
 *.obj
+bin/
+obj/
 
 # Ignorar copias de seguridad
 *.bak
@@ -10,6 +12,5 @@
 
 # Ignorar cfg usuario
 *.userprefs
-
-
-
+*.user
+*.csproj.user
