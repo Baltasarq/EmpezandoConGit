@@ -2,9 +2,9 @@
 {
     public static class Salida
     {
-        public static void Escribe(string msg)
+        public static void Escribe(string msg, char cr='\n')
         {
-            System.Console.WriteLine( msg );
+            System.Console.Write( msg + cr );
         }
     }
 }
