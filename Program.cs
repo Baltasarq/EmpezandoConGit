@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("¡Empezando con GIT! ¡¡Guau!!");
+﻿
+
+Console.Out("¡Empezando con GIT! ¡¡Guau!!");
+
+static class Console
+{
+    public static void Out(string s)
+    {
+        System.Console.WriteLine( s );
+    }
+}
+
